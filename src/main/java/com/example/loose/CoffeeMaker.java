@@ -22,6 +22,6 @@ public class CoffeeMaker {
 	
 	@PostConstruct
 	public void makeCoffee() {
-		System.out.println(coffeeMachine.brew());
+		System.out.println(coffeeMachine.brew());//
 	}
 }
